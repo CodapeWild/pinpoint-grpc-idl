@@ -7,10 +7,7 @@ import "v1/Span.proto";
 import "v1/Stat.proto";
 import "v1/Cmd.proto";
 
-option java_multiple_files = true;
-option java_package = "com.navercorp.pinpoint.grpc.trace";
-option java_outer_classname = "ServiceProto";
-option go_package = "/v1";
+option go_package = "github.com/CodapeWild/dktrace-idl/pinpoint-gen-go/v1";
 
 service Span {
   rpc SendSpan(stream PSpanMessage) returns (google.protobuf.Empty) {}

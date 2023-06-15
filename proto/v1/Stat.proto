@@ -2,7 +2,7 @@ syntax = "proto3";
 
 package v1;
 
-import "proto/v1/ThreadDump.proto";
+import "v1/ThreadDump.proto";
 
 option go_package = "github.com/CodapeWild/dktrace-idl/pinpoint-gen-go/v1";
 

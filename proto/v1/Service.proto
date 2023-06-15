@@ -3,9 +3,9 @@ syntax = "proto3";
 package v1;
 
 import "google/protobuf/empty.proto";
-import "proto/v1/Span.proto";
-import "proto/v1/Stat.proto";
-import "proto/v1/Cmd.proto";
+import "v1/Span.proto";
+import "v1/Stat.proto";
+import "v1/Cmd.proto";
 
 option go_package = "github.com/CodapeWild/dktrace-idl/pinpoint-gen-go/v1";
 

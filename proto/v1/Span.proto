@@ -13,6 +13,15 @@ message PSpanMessage {
   }
 }
 
+message StringSlice {
+  repeated string Values = 1;
+}
+
+message PSpanMessageWithMeta {
+  PSpanMessage SpanMessage = 1;
+  map<string, StringSlice> Meta = 2;
+}
+
 message PSpan {
   int32 version = 1;
 

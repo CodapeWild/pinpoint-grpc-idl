@@ -5,7 +5,7 @@ package v1;
 import "google/protobuf/wrappers.proto";
 import "v1/ThreadDump.proto";
 
-option go_package = "github.com/CodapeWild/dktrace-idl/pinpoint-gen-go/v1";
+option go_package = "github.com/GuanceCloud/tracing-protos/pinpoint-gen-go/v1";
 
 enum PCommandType {
   NONE = 0;

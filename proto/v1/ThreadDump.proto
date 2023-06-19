@@ -2,7 +2,7 @@ syntax = "proto3";
 
 package v1;
 
-option go_package = "github.com/CodapeWild/dktrace-idl/pinpoint-gen-go/v1";
+option go_package = "github.com/GuanceCloud/tracing-protos/pinpoint-gen-go/v1";
 
 enum PThreadState {
   THREAD_STATE_NEW = 0;
